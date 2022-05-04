@@ -31,8 +31,7 @@ def populate(N=5):
                                           last_name=fake_last_name,
                                           email=fake_email)[0]
 
-
 if __name__ == '__main__':
-    print("Populating the databases...Please Wait")
+    print("Populating the databases... Please wait...")
     populate(20)
-    print('Populating Complete')
+    print('Populating complete!')
